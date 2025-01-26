@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .app {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .connect-wallets {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button.metamask {
+    background-color: #f6851b;
+    color: white;
+  }
+  
+  .button.sui {
+    background-color: #6f42c1;
+    color: white;
+  }
+  
+  .balances {
+    margin-bottom: 20px;
+  }
+  
+  .transfer-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input, .select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .button.transfer {
+    background-color: #28a745;
+    color: white;
+  }
